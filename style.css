@@ -1,0 +1,193 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    height: 100%;
+    background: #e570e7;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0 10px 0;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    scale: 1.1;
+    transition: 0.5s;
+    color: #FFCE00;
+}
+
+header .titulo {
+    font-size: 52px;
+    transition: 0.5s;
+    text-decoration: none;
+    color: white;
+}
+
+
+.bold {
+    color: #FFCE00;
+}
+
+img {
+    max-width: 100%;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.informacion {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.informacion h2:hover {
+    color: #FFCE00;
+}
+
+.informacion p:hover {
+    color: #FFCE00;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+p {
+    font-size: 24px;
+}
+
+main h2 {
+    color: #FFCE00;
+}
+
+.lista-productos {
+    padding: 0;
+}
+
+.contenedor-productos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.producto {
+    width: 400px;
+    height: 515px;
+    padding: 5px;
+    margin: 20px;
+    text-align: center;
+    border: 10px solid rgba(128, 1, 195, .45);
+    transition: border-color .3s ease-in-out;
+}
+
+.producto:hover {
+    border: 10px solid rgba(128, 1, 195, 1);
+}
+
+.producto img {
+    width: 300px;
+    height: 330px;
+}
+
+.producto p {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+}
+
+span.precio {
+    color: #FFCE00;
+    font-size: 40px;
+}
+
+.boton {
+    background-color: #FFCE00;
+    padding: 10px 40px;
+    margin-top: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: #8001c3;
+    transition: background-color .3s ease-in-out;
+}
+
+.boton:hover {
+    background-color: #EBBC00;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #8001c3;
+    color: white;
+    padding: 2px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 24px;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: #EBBC00;
+}
+
+.contenedor-buscador {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 5px;
+}
+
+.buscador {
+    background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 5px;
+    background-size: 24px;
+    width: 500px;
+    border: transparent;
+    border-bottom: solid 1px #8001c3;
+    padding: 10px 10px 10px 30px;
+    outline: none;
+    color: white;
+}
+
+.buscador::placeholder {
+    color: #8001c3;
+}

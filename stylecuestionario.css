@@ -1,0 +1,141 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    height: 100%;
+    background: #e570e7;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0 10px 0;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    scale: 1.1;
+    transition: 0.5s;
+    color: #FFCE00;
+}
+
+header .titulo {
+    font-size: 52px;
+    transition: 0.5s;
+    text-decoration: none;
+    color: white;
+}
+
+
+.bold {
+    color: #FFCE00;
+}
+
+img {
+    max-width: 100%;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+p {
+    font-size: 24px;
+}
+
+main h2 {
+    color: #FFCE00;
+}
+
+.boton {
+    background-color: #FFCE00;
+    padding: 10px 40px;
+    margin-top: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: #8001c3;
+    transition: background-color .3s ease-in-out;
+}
+
+.boton:hover {
+    background-color: #EBBC00;
+}
+
+.none {
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #8001c3;
+    color: white;
+    padding: 2px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: #EBBC00;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.grupo {
+    margin-bottom: 20px;
+}
